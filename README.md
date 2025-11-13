@@ -1,9 +1,9 @@
-# Awesome RL-VLA 🤖
+# Awesome RL-VLA for Robotic Manipulation 🤖
 
-A curated list of papers and resources on **Reinforcement Learning for Vision-Language-Action (RL-VLA)** models. This repository provides a comprehensive overview of training paradigms, methodologies, and state-of-the-art approaches in RL-VLA research.
+A curated list of papers and resources on **Reinforcement Learning of Vision-Language-Action (RL-VLA)** models for Robotic Manipulation. This repository provides a comprehensive overview of training paradigms, methodologies, and state-of-the-art approaches in RL-VLA research.
 
 ## 📖 Table of Contents
-- [Awesome RL-VLA 🤖](#awesome-rl-vla-)
+- [Awesome RL-VLA for Robotic Manipulation 🤖](#awesome-rl-vla-for-robotic-manipulation-)
   - [📖 Table of Contents](#-table-of-contents)
   - [🔍 Overview](#-overview)
   - [🚀 Training Paradigms](#-training-paradigms)
