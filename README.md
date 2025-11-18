@@ -15,6 +15,7 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
     - [🎯 RL-VLA Action Optimization](#-rl-vla-action-optimization)
     - [Offline RL-VLA](#offline-rl-vla-1)
     - [Online RL-VLA](#online-rl-vla-1)
+    - [Offline + Online RL-VLA](#offline--online-rl-vla)
     - [Test-time RL-VLA](#test-time-rl-vla-1)
   - [🔗 Useful Resources](#-useful-resources)
     - [Base VLA Models](#base-vla-models)
@@ -88,7 +89,6 @@ Different VLA architectures require distinct RL optimization strategies based on
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [Q-Transformer](https://arxiv.org/abs/2309.10150) | 2023.10 | ✓ | ✗ | Transformer | AR | S | CQL | MF | [🔗](https://qtransformer.github.io/) |
 | [PAC](https://arxiv.org/abs/2402.05546) | 2024.02 | ✓ | ✓ | Perceiver-Actor-Critic | AR | S | AC | MF | [🔗](https://sites.google.com/view/perceiver-actor-critic) |
-| [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
 | [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | - |
 | [CO-RFT](https://arxiv.org/pdf/2508.02219) | 2025.08 | ✗ | ✓ | RoboVLMs | AR | D | Cal-QL + TD3 | MF | - |
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
@@ -103,7 +103,6 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [iRe-VLA](https://arxiv.org/abs/2501.16664) | 2025.01 | ✓ | ✓ | iRe-VLA | AR | S | SACfD + SFT | MF | - |
 | [GRAPE](https://arxiv.org/pdf/2411.19309) | 2025.02 | ✓ | ✓ | OpenVLA | AR | D | TPO | MF | [🔗](https://github.com/aiming-lab/grape) |
 | [SafeVLA](https://arxiv.org/abs/2503.03480) | 2025.03 | ✓ | ✗ | SPOC | AR | S | PPO | MF | [🔗](https://sites.google.com/view/pku-safevla) |
-| [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
 | [RIPT-VLA](https://arxiv.org/abs/2505.17016) | 2025.05 | ✓ | ✗ | QueST / OpenVLA-OFT | AR | S | LOOP | MF | [🔗](https://ariostgx.github.io/ript_vla/) |
 | [VLA-RL](https://arxiv.org/abs/2505.18719) | 2025.05 | ✓ | ✗ | OpenVLA | AR | D | PPO | MF | [🔗](https://github.com/GuanxingLu/vlarl) |
 | [RLVLA](https://arxiv.org/abs/2505.19789) | 2025.05 | ✓ | ✗ | OpenVLA | AR | S | PPO / GRPO / DPO | MF | [🔗](https://github.com/gen-robot/RL4VLA) |
@@ -124,6 +123,14 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [World-Env](https://arxiv.org/abs/2509.24948) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | D | PPO | MB | [🔗](https://github.com/amap-cvlab/world-env) |
 | [RobustVLA](https://arxiv.org/pdf/2511.01331) | 2025.11 | ✓ | ✗ | OpenVLA-OFT | AR | D | PPO | MF | - |
 | [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
+
+### Offline + Online RL-VLA
+
+| Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
+|--------|------|------|------|----------------|--------|---------|-----------|------|---------|
+| [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
+| [$π^*_{0.6}$](https://www.physicalintelligence.company/download/pistar06.pdf) | 2025.11 | ✗ | ✓ | $π_{0.6}$ | AR | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
+
 
 ### Test-time RL-VLA
 
