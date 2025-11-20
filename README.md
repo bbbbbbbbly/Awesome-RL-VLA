@@ -92,6 +92,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | - |
 | [CO-RFT](https://arxiv.org/pdf/2508.02219) | 2025.08 | ✗ | ✓ | RoboVLMs | AR | D | Cal-QL + TD3 | MF | - |
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
+| [$π^*_{0.6}$](https://www.physicalintelligence.company/download/pistar06.pdf) | 2025.11 | ✗ | ✓ | $π_{0.6}$ | Flow | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
 | [NORA-1.5](https://arxiv.org/pdf/2511.14659) | 2025.11 | ✓ | ✓ | NORA-1.5 | AR / Flow | D | DPO | MB | [🔗](https://declare-lab.github.io/nora-1.5) |
 
 ### Online RL-VLA
@@ -130,7 +131,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
-| [$π^*_{0.6}$](https://www.physicalintelligence.company/download/pistar06.pdf) | 2025.11 | ✗ | ✓ | $π_{0.6}$ | AR | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
+
 
 
 ### Test-time RL-VLA
