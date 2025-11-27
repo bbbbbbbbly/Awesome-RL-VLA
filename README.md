@@ -169,6 +169,8 @@ Different VLA architectures require distinct RL optimization strategies based on
 </table>
 
 ### Base VLA Models
+- [GR00T-N1](https://github.com/NVIDIA/Isaac-GR00T) - NVIDIA series
+- [π0](https://github.com/Physical-Intelligence/openpi)] - PI series
 - [OpenVLA](https://github.com/openvla/openvla) - Open-source VLA model
 - [Octo](https://github.com/octo-models/octo) - Generalist robot policy
 - [RT-1](https://github.com/google-research/robotics_transformer) - Robotics Transformer
@@ -176,6 +178,8 @@ Different VLA architectures require distinct RL optimization strategies based on
 ### Datasets & Benchmarks
 - [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Large-scale robotic datasets
 - [LIBERO](https://libero-ai.github.io/) - Benchmark for lifelong robot learning
+- [SimplerEnv](https://github.com/simpler-env/SimplerEnv) - Benchmark for real-sim robot learning
+- [RoboTwin](https://github.com/robotwin-Platform/robotwin) - Benchmark for bimanual robot learning
 
 ### Frameworks & Tools
 - [RLinf](https://github.com/RLinf/RLinf) - Infrastructure for online RL fine-tuning of VLAs
