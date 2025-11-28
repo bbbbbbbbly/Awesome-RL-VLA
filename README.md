@@ -170,7 +170,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 
 ### Base VLA Models
 - [GR00T-N1](https://github.com/NVIDIA/Isaac-GR00T) - NVIDIA series
-- [π0](https://github.com/Physical-Intelligence/openpi)] - PI series
+- [π0](https://github.com/Physical-Intelligence/openpi) - PI series
 - [OpenVLA](https://github.com/openvla/openvla) - Open-source VLA model
 - [Octo](https://github.com/octo-models/octo) - Generalist robot policy
 - [RT-1](https://github.com/google-research/robotics_transformer) - Robotics Transformer
