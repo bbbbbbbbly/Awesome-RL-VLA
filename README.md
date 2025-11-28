@@ -138,7 +138,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
-| [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
+| [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
 | [Hume](https://arxiv.org/abs/2505.21432) | 2025.06 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
 | [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA et al. | AR / Diffusion | D | MCTS | MB | - |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
