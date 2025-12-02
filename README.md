@@ -132,6 +132,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
 | [SRPO](https://arxiv.org/abs/2511.15605) | 2025.11 | ✓ | ✓ | OpenVLA* / π₀ / π₀-Fast | AR / Flow | D | SRPO | MF (MB-Reward but MF-RL) | [🔗](https://github.com/sii-research/siiRL) |
 | [DLR](https://arxiv.org/abs/2511.19528) | 2025.11 | ✓ | ✗ | π₀ / OpenVLA | Flow / AR | S | PPO(MLP) + SFT(VLA)  | MF | - |
+| [GR-RL](https://arxiv.org/abs/2512.01801) | 2025.12 | ✗ | ✓ | GR-3 | Flow | S | TD3 / DSRL | MF | [🔗](https://seed.bytedance.com/gr_rl) |
 
 
 ### Test-time RL-VLA
