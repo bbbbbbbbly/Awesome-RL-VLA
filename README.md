@@ -208,20 +208,13 @@ We welcome contributions to this awesome list! Please feel free to:
 If you find this repository useful, please consider citing:
 
 ```bibtex
-@misc{pine2025rlvla,
-  title={A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation},
-  author={Deng, Haoyuan and Wu, Zhenyu and Liu, Haichao and Guo, Wenkai and Xue, Yuquan and Shan, Ziyu and Zhang, Chuanrui and Jia, Bofang and Ling, Yuan and Lu, Guanxing and Wang, Ziwei},
-  howpublished = {\url{https://github.com/Denghaoyuan123/Awesome-RL-VLA}},
-  month={November},
-  year={2025},
-  doi={10.5281/zenodo.17713487}
-}
-
 @article{pine2025rlvla,
   title={A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation},
   author={Haoyuan Deng, Zhenyu Wu, Haichao Liu, Wenkai Guo, Yuquan Xue, Ziyu Shan, Chuanrui Zhang, Bofang Jia, Yuan Ling, Guanxing Lu, and Ziwei Wang},
-  journal={arXiv preprint arXiv:},
-  year={2025}
+  journal={TechRxiv},
+  year={2025},
+  doi={10.36227/techrxiv.176531955.54563920/v1},
+  note={Preprint}
 }
 ```
 
