@@ -30,6 +30,7 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
   - [🤝 Contributing](#-contributing)
     - [Contribution Guidelines](#contribution-guidelines)
   - [📄 Citation](#-citation)
+  - [⭐ Star History](#-star-history)
 
 ## 🔍 Overview
 
@@ -225,6 +226,8 @@ If you find this repository useful, please consider citing:
 
 ---
 
-⭐ **Star this repository** if you find it helpful!
+## ⭐ Star History
+ **Star this repository** if you find it helpful!
 
-🔄 **Watch** for updates on the latest RL-VLA research!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Denghaoyuan123/Awesome-RL-VLA&type=date&legend=top-left)](https://www.star-history.com/#Denghaoyuan123/Awesome-RL-VLA&type=date&legend=top-left)
