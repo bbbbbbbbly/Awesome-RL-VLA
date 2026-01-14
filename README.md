@@ -128,6 +128,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / Pi0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
 | [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
 | [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
+| [TT-VLA](https://arxiv.org/abs/2601.06748v2) | 2026.1 | ✓ | ✓ | Nora / OpenVLA / TraceVLA | AR | D | PPO (Value-free) | MF | - |
+
 
 ### Offline + Online RL-VLA
 
