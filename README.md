@@ -128,8 +128,6 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / Pi0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
 | [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
 | [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
-| [TT-VLA](https://arxiv.org/abs/2601.06748v2) | 2026.1 | ✓ | ✓ | Nora / OpenVLA / TraceVLA | AR | D | PPO (Value-free) | MF | - |
-
 
 ### Offline + Online RL-VLA
 
@@ -142,7 +140,6 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [GR-RL](https://arxiv.org/abs/2512.01801) | 2025.12 | ✗ | ✓ | GR-3 | Flow | S | TD3 / DSRL | MF | [🔗](https://seed.bytedance.com/gr_rl) |
 | [STARE-VLA](https://arxiv.org/abs/2512.05107) | 2025.12 | ✓ | ✗ | OpenVLA / π₀.₅ | AR / Flow | D | PPO / TPO / SFT | MF | [🔗](https://sites.google.com/view/stare-vla) |
 
-
 ### Test-time RL-VLA
 
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
@@ -153,6 +150,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
+| [TT-VLA](https://arxiv.org/abs/2601.06748v2) | 2026.1 | ✓ | ✓ | Nora / OpenVLA / TraceVLA | AR | D | PPO (Value-free) | MF | - |
 
 **Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
